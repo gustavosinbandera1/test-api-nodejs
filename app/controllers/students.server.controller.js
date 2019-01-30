@@ -22,6 +22,8 @@ exports.list = function(req, res) {
 
  exports.create = function(req, res) {
      console.log('entramos a crear estudiante');
+     console.log(req.body.name, req.body.age);
+     
      
     var student = new StudentModel(req.body);
         student.name = req.body.name;

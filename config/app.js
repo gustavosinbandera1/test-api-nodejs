@@ -1,12 +1,11 @@
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 var express = require('express');
+var path = require('path');
 var app = express();
 
 var env = process.env.NODE_ENV || 'development';
 var config = require('./config')[env];
-
-//var endPoints = require('./endpoints');
 
 mongoose.connect(config.database.db, {useNewUrlParser: true, useCreateIndex: true})
     .then(() => {
@@ -16,17 +15,17 @@ mongoose.connect(config.database.db, {useNewUrlParser: true, useCreateIndex: tru
     .catch((err) => {
       console.log('Failed to connected to', db);
       
-    });
+});
 
 
-    app.use(function (req, res, next) {
+  app.use(function (req, res, next) {
       res.setHeader('Access-Control-Allow-Origin', 'http://localhost:4200');
       res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
       res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
       res.setHeader('Access-Control-Allow-Credentials', true);
   
       next();
-    });
+  });
 //bodyparser midleware for parsers for POST data
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}));
@@ -48,14 +47,12 @@ var apiRouter = require('../app/routes/api.server.router');
 app.set('port',process.env.PORT || 3000);
 
 
-
+app.use(express.static(path.join(__dirname, '../dist/testAPI')));
 //catch all others routes and return any message
 //in order to send dist file for web application
-app.get('*', (req, res) => {
-    res.json({
-      test:'esto es una prueba nodejs'
-    });
-})
+ app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'index.html') );
+}) 
 
 
 module.exports = app;
