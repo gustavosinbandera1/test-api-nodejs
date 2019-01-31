@@ -12,7 +12,7 @@ var CursoSchema = new Schema({
         default: '',
         required: 'please ingress your name'
 	},
-	cusroCode: {
+	cursoCode: {
 		type: Number,
 		required: true
 	}

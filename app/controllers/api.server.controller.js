@@ -24,13 +24,17 @@ exports.promedioCursoById = (req, res, next, id) => {
 
 //middleware to find student notes by ID
 exports.notaByID = (req, res, next, id) => {
+    console.log('notas de estudiantes');
+    
     var query  = NotaModel.where({ id_estudiante: req.params.idEstudiante }); // <-- Use the correct param name
     query.find( (err, notas) => {
         if (err) return next(err);
         if(!notas) return next('failed to load notas');
         req.notas = notas;
+        console.log('listo..............');
+        
         next();
-    }).populate('id_estudiante', ['name'])
+    }).populate('id_estudiante'/*, ['name']*/)
         .populate('id_curso');
 };
 

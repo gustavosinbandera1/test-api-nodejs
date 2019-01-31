@@ -38,7 +38,7 @@ var apiRouter = require('../app/routes/api.server.router');
  
 
 ////Set our api routes for crud access
- app.use('/students',studentsRouter);
+ app.use('/estudiantes',studentsRouter);
  app.use('/cursos', cursosRouter);
  app.use('/notas', notasRouter);
  app.use('/api', apiRouter);

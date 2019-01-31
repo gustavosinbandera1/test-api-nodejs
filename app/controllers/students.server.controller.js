@@ -22,13 +22,13 @@ exports.list = function(req, res) {
 
  exports.create = function(req, res) {
      console.log('entramos a crear estudiante');
-     console.log(req.body.name, req.body.age);
+     console.log(req.body.name, req.body.age, req.body.studentCode);
      
      
     var student = new StudentModel(req.body);
-        student.name = req.body.name;
+     /*    student.name = req.body.name;
         student.age = req.body.age;
-
+ */
      student.save(function(err) {
         if(err) {
             return res.status(400).send({
@@ -70,6 +70,8 @@ exports.update = function(req, res) {
  // Delete a Student
  
 exports.delete = function(req, res) {
+    console.log('vamos a eliminar este estudiante por malo', );
+    
 	var student = req.student ;
 
 	student.remove(function(err) {
