@@ -42,6 +42,7 @@ var apiRouter = require('../app/routes/api.server.router');
  app.use('/cursos', cursosRouter);
  app.use('/notas', notasRouter);
  app.use('/api', apiRouter);
+ 
 //set port  I dont use this in project, I use config file 
 //but I can get por using app.get('port) in server file
 app.set('port',process.env.PORT || 3000);

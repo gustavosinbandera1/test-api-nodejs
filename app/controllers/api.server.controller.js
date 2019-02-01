@@ -1,23 +1,39 @@
 var mongoose = require('mongoose');
-var Nota = require('../models/notas.server.model');
+/* var Nota = require('../models/notas.server.model'); */
 var NotaModel = mongoose.model('Nota');
 
 
-/*show the current curso */
+
+/*show the current curs */
 exports.readStudent = (req, res) => {
    res.json(req.notas);
 };
 
 exports.readCurso = (req, res) => {
-    res.json(req.notasCurso);
+    res.json(
+        {
+           promedio: req.promedio
+        })
 }
 
 exports.promedioCursoById = (req, res, next, id) => {
     var query = NotaModel.where({id_curso: req.params.idCurso});
+    var promedio = 0;
+    var suma = 0;
     query.find((err, notas) => {
         if(err) return next(err); 
         if(!notas) return next('Failed to load notes');
         req.notasCurso = notas;
+        console.log('las notas del curso son', notas);
+        //necesitamos sumarlas y promediarlas
+        notas.forEach(function(valor, indice, array) {
+            console.log('estos son los valores de foreach',valor, indice);
+            suma = suma + valor.calificacion;
+            index = indice;
+        });
+        promedio = suma/(index+1).toPrecision(3);
+        console.log('el promedio ',promedio);
+        req.promedio = promedio;
         next();
     });
 }

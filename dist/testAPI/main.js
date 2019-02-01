@@ -40,6 +40,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _student_list_student_list_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./student-list/student-list.component */ "./src/app/student-list/student-list.component.ts");
 /* harmony import */ var _curso_curso_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./curso/curso.component */ "./src/app/curso/curso.component.ts");
 /* harmony import */ var _nota_nota_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./nota/nota.component */ "./src/app/nota/nota.component.ts");
+/* harmony import */ var _promedio_promedio_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./promedio/promedio.component */ "./src/app/promedio/promedio.component.ts");
+
 
 
 
@@ -55,7 +57,8 @@ var routes = [
             { path: '', redirectTo: 'estudiantes', pathMatch: 'full' },
             { path: 'estudiantes', component: _student_list_student_list_component__WEBPACK_IMPORTED_MODULE_4__["StudentListComponent"] },
             { path: 'cursos', component: _curso_curso_component__WEBPACK_IMPORTED_MODULE_5__["CursoComponent"] },
-            { path: 'notas', component: _nota_nota_component__WEBPACK_IMPORTED_MODULE_6__["NotaComponent"] }
+            { path: 'notas', component: _nota_nota_component__WEBPACK_IMPORTED_MODULE_6__["NotaComponent"] },
+            { path: 'promedios', component: _promedio_promedio_component__WEBPACK_IMPORTED_MODULE_7__["PromedioComponent"] }
         ]
     },
     { path: '', redirectTo: 'dashboard', pathMatch: 'full' }
@@ -158,6 +161,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _note_dialog_note_dialog_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./note-dialog/note-dialog.component */ "./src/app/note-dialog/note-dialog.component.ts");
 /* harmony import */ var _student_dialog_upd_student_dialog_upd_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./student-dialog-upd/student-dialog-upd.component */ "./src/app/student-dialog-upd/student-dialog-upd.component.ts");
 /* harmony import */ var _curso_dialog_upd_curso_dialog_upd_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./curso-dialog-upd/curso-dialog-upd.component */ "./src/app/curso-dialog-upd/curso-dialog-upd.component.ts");
+/* harmony import */ var _promedio_promedio_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./promedio/promedio.component */ "./src/app/promedio/promedio.component.ts");
+
 
 
 
@@ -191,7 +196,8 @@ var AppModule = /** @class */ (function () {
                 _note_dialog_note_dialog_component__WEBPACK_IMPORTED_MODULE_15__["NoteDialogComponent"],
                 _student_dialog_student_dialog_component__WEBPACK_IMPORTED_MODULE_14__["StudentDialogComponent"],
                 _student_dialog_upd_student_dialog_upd_component__WEBPACK_IMPORTED_MODULE_16__["StudentDialogUpdComponent"],
-                _curso_dialog_upd_curso_dialog_upd_component__WEBPACK_IMPORTED_MODULE_17__["CursoDialogUpdComponent"]
+                _curso_dialog_upd_curso_dialog_upd_component__WEBPACK_IMPORTED_MODULE_17__["CursoDialogUpdComponent"],
+                _promedio_promedio_component__WEBPACK_IMPORTED_MODULE_18__["PromedioComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -471,7 +477,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n<div class=\"wrapper\">\n\n  <div class=\"sidebar\" data-color=\"blue\" data-image=\"assets/img/sidebar-7.jpg\">\n\n    <div class=\"sidebar-wrapper\" >\n          <div class=\"logo\" >\n              <a href=\"#\"  class=\"simple-text\">\n                  Notas Dashboard\n              </a>\n          </div>\n\n          <ul class=\"nav\">\n              <li >\n                  <a [routerLink]=\"['estudiantes']\">\n                      <i class=\"pe-7s-config\"></i>\n                      <p>Estudiantes</p>\n                  </a>\n              </li>\n              <li>\n                  <a [routerLink]=\"['cursos']\">\n                      <i class=\"pe-7s-cash\"></i>\n                      <p>Cursos</p>\n                  </a>\n              </li>\n              <li class=\"active\">\n                  <a [routerLink]=\"['notas']\">\n                      <i class=\"pe-7s-config\"></i>\n                      <p>Notas</p>\n                  </a>\n              </li>\n\n          </ul>\n    </div>\n  </div>\n\n  <div class=\"main-panel\">\n      <nav class=\"navbar navbar-default navbar-fixed\">\n          <div class=\"container-fluid\">\n              <div class=\"navbar-header\">\n                  <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\">\n                      <span class=\"sr-only\">Toggle navigation</span>\n                      <span class=\"icon-bar\"></span>\n                      <span class=\"icon-bar\"></span>\n                      <span class=\"icon-bar\"></span>\n                  </button>\n                  <a class=\"navbar-brand\" href=\"#\">Notas Dashboard</a>\n              </div>\n              <div class=\"collapse navbar-collapse\">\n                  <ul class=\"nav navbar-nav navbar-left\">\n                      <li>\n                          <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">\n                              <i class=\"fa fa-dashboard\"></i>\n                          </a>\n                      </li>\n                  </ul>\n\n                  <ul class=\"nav navbar-nav navbar-right\">\n                      <li>\n                         <a href=\"\">\n                             Account\n                          </a>\n                      </li>\n                  </ul>\n              </div>\n          </div>\n      </nav>\n\n\n      <div class=\"content\">\n          <div class=\"container-fluid\">\n              <div class=\"row\">\n                <router-outlet></router-outlet>\n              </div>\n          </div>\n      </div>\n\n\n      <footer class=\"footer\">\n          <div class=\"container-fluid\">\n              <nav class=\"pull-left\">\n                  <ul>\n                      <li>\n                          <a href=\"#\">\n                              By Gustavo\n                          </a>\n                      </li>\n\n                  </ul>\n              </nav>\n              <p class=\"copyright pull-right\">\n                  &copy; <script>document.write(new Date().getFullYear())</script> <a href=\"\">NOTES PLATFORM</a>, the world in your hands\n              </p>\n          </div>\n      </footer>\n\n  </div>\n</div>\n\n\n"
+module.exports = "\n<div class=\"wrapper\">\n\n  <div class=\"sidebar\" data-color=\"blue\" data-image=\"assets/img/sidebar-7.jpg\">\n\n    <div class=\"sidebar-wrapper\" >\n          <div class=\"logo\" >\n              <a href=\"#\"  class=\"simple-text\">\n                  Notas Dashboard\n              </a>\n          </div>\n\n          <ul class=\"nav\">\n              <li >\n                  <a [routerLink]=\"['estudiantes']\">\n                      <i class=\"pe-7s-config\"></i>\n                      <p>Estudiantes</p>\n                  </a>\n              </li>\n              <li>\n                  <a [routerLink]=\"['cursos']\">\n                      <i class=\"pe-7s-cash\"></i>\n                      <p>Cursos</p>\n                  </a>\n              </li>\n              <li >\n                  <a [routerLink]=\"['notas']\">\n                      <i class=\"pe-7s-config\"></i>\n                      <p>Notas</p>\n                  </a>\n              </li>\n              <li >\n                <a [routerLink]=\"['promedios']\">\n                    <i class=\"pe-7s-config\"></i>\n                    <p>Promedios</p>\n                </a>\n            </li>\n\n          </ul>\n    </div>\n  </div>\n\n  <div class=\"main-panel\">\n      <nav class=\"navbar navbar-default navbar-fixed\">\n          <div class=\"container-fluid\">\n              <div class=\"navbar-header\">\n                  <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\">\n                      <span class=\"sr-only\">Toggle navigation</span>\n                      <span class=\"icon-bar\"></span>\n                      <span class=\"icon-bar\"></span>\n                      <span class=\"icon-bar\"></span>\n                  </button>\n                  <a class=\"navbar-brand\" href=\"#\">Notas Dashboard</a>\n              </div>\n              <div class=\"collapse navbar-collapse\">\n                  <ul class=\"nav navbar-nav navbar-left\">\n                      <li>\n                          <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">\n                              <i class=\"fa fa-dashboard\"></i>\n                          </a>\n                      </li>\n                  </ul>\n\n                  <ul class=\"nav navbar-nav navbar-right\">\n                      <li>\n                         <a href=\"\">\n                             Account\n                          </a>\n                      </li>\n                  </ul>\n              </div>\n          </div>\n      </nav>\n\n\n      <div class=\"content\">\n          <div class=\"container-fluid\">\n              <div class=\"row\">\n                <router-outlet></router-outlet>\n              </div>\n          </div>\n      </div>\n\n\n      <footer class=\"footer\">\n          <div class=\"container-fluid\">\n              <nav class=\"pull-left\">\n                  <ul>\n                      <li>\n                          <a href=\"#\">\n                              By Gustavo\n                          </a>\n                      </li>\n\n                  </ul>\n              </nav>\n              <p class=\"copyright pull-right\">\n                  &copy; <script>document.write(new Date().getFullYear())</script> <a href=\"\">NOTES PLATFORM</a>, the world in your hands\n              </p>\n          </div>\n      </footer>\n\n  </div>\n</div>\n\n\n"
 
 /***/ }),
 
@@ -891,6 +897,78 @@ var NoteDialogComponent = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/promedio/promedio.component.css":
+/*!*************************************************!*\
+  !*** ./src/app/promedio/promedio.component.css ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3Byb21lZGlvL3Byb21lZGlvLmNvbXBvbmVudC5jc3MifQ== */"
+
+/***/ }),
+
+/***/ "./src/app/promedio/promedio.component.html":
+/*!**************************************************!*\
+  !*** ./src/app/promedio/promedio.component.html ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class='content'>\n  <div class='row'>\n    <div class=\"col\">\n    <mat-form-field>\n      <mat-select placeholder=\"Curso\">\n        <mat-option *ngFor=\"let course of courses\" [value]=\"course._id\" (click)= 'changeCourse(course._id)'>\n          {{course.name}}\n        </mat-option>\n      </mat-select>\n    </mat-form-field>\n</div>\n\n<div class=\"jumbotron\">\n  <h1 class=\"display-4\">{{promedio}}</h1>\n\n</div>\n"
+
+/***/ }),
+
+/***/ "./src/app/promedio/promedio.component.ts":
+/*!************************************************!*\
+  !*** ./src/app/promedio/promedio.component.ts ***!
+  \************************************************/
+/*! exports provided: PromedioComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PromedioComponent", function() { return PromedioComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _services_api_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../services/api.service */ "./src/app/services/api.service.ts");
+
+
+
+var PromedioComponent = /** @class */ (function () {
+    function PromedioComponent(api) {
+        var _this = this;
+        this.api = api;
+        this.courses = [];
+        this.api.getItems('cursos').subscribe(function (courses) {
+            _this.courses = courses;
+            console.log('los cursos', courses);
+        });
+    }
+    PromedioComponent.prototype.ngOnInit = function () {
+    };
+    PromedioComponent.prototype.changeCourse = function (course_id) {
+        var _this = this;
+        this.api.getPromedioCurso(course_id).subscribe(function (data) {
+            console.log('promedio dentro del componente', data.promedio);
+            _this.promedio = data.promedio;
+        });
+    };
+    PromedioComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-promedio',
+            template: __webpack_require__(/*! ./promedio.component.html */ "./src/app/promedio/promedio.component.html"),
+            styles: [__webpack_require__(/*! ./promedio.component.css */ "./src/app/promedio/promedio.component.css")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_services_api_service__WEBPACK_IMPORTED_MODULE_2__["ApiService"]])
+    ], PromedioComponent);
+    return PromedioComponent;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/services/api.service.ts":
 /*!*****************************************!*\
   !*** ./src/app/services/api.service.ts ***!
@@ -912,7 +990,7 @@ __webpack_require__.r(__webpack_exports__);
 var ApiService = /** @class */ (function () {
     function ApiService(http) {
         this.http = http;
-        //private _url: any = 'http://localhost:3000';
+        // private _url: any = 'http://localhost:3000';
         this._url = 'https://nodejs-express-api.herokuapp.com';
     }
     ApiService.prototype.getNotesByStudentId = function (studentId) {
@@ -950,6 +1028,13 @@ var ApiService = /** @class */ (function () {
     ApiService.prototype.updateItem = function (item, endpoint) {
         return this.http.put(this._url + "/" + endpoint + "/" + item._id, item)
             .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (data) {
+            return data;
+        }));
+    };
+    ApiService.prototype.getPromedioCurso = function (id_curso) {
+        return this.http.get(this._url + "/api/promedio_curso/" + id_curso)
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (data) {
+            console.log('el promedio desde el servicio', data);
             return data;
         }));
     };
