@@ -142,16 +142,28 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppModule", function() { return AppModule; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm5/platform-browser.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
-/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
-/* harmony import */ var _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./dashboard/dashboard.component */ "./src/app/dashboard/dashboard.component.ts");
-/* harmony import */ var _student_list_student_list_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./student-list/student-list.component */ "./src/app/student-list/student-list.component.ts");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
-/* harmony import */ var _services_api_service__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./services/api.service */ "./src/app/services/api.service.ts");
-/* harmony import */ var _curso_curso_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./curso/curso.component */ "./src/app/curso/curso.component.ts");
-/* harmony import */ var _nota_nota_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./nota/nota.component */ "./src/app/nota/nota.component.ts");
+/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/platform-browser/animations */ "./node_modules/@angular/platform-browser/fesm5/animations.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
+/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./dashboard/dashboard.component */ "./src/app/dashboard/dashboard.component.ts");
+/* harmony import */ var _student_list_student_list_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./student-list/student-list.component */ "./src/app/student-list/student-list.component.ts");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var _services_api_service__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./services/api.service */ "./src/app/services/api.service.ts");
+/* harmony import */ var _curso_curso_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./curso/curso.component */ "./src/app/curso/curso.component.ts");
+/* harmony import */ var _nota_nota_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./nota/nota.component */ "./src/app/nota/nota.component.ts");
+/* harmony import */ var _material_module__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./material.module */ "./src/app/material.module.ts");
+/* harmony import */ var _student_dialog_student_dialog_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./student-dialog/student-dialog.component */ "./src/app/student-dialog/student-dialog.component.ts");
+/* harmony import */ var _note_dialog_note_dialog_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./note-dialog/note-dialog.component */ "./src/app/note-dialog/note-dialog.component.ts");
+/* harmony import */ var _student_dialog_upd_student_dialog_upd_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./student-dialog-upd/student-dialog-upd.component */ "./src/app/student-dialog-upd/student-dialog-upd.component.ts");
+/* harmony import */ var _curso_dialog_upd_curso_dialog_upd_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./curso-dialog-upd/curso-dialog-upd.component */ "./src/app/curso-dialog-upd/curso-dialog-upd.component.ts");
+
+
+
+
+
+
 
 
 
@@ -168,26 +180,126 @@ var AppModule = /** @class */ (function () {
     function AppModule() {
     }
     AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_3__["NgModule"])({
             declarations: [
-                _app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"],
-                _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_6__["DashboardComponent"],
-                _student_list_student_list_component__WEBPACK_IMPORTED_MODULE_7__["StudentListComponent"],
-                _curso_curso_component__WEBPACK_IMPORTED_MODULE_10__["CursoComponent"],
-                _nota_nota_component__WEBPACK_IMPORTED_MODULE_11__["NotaComponent"]
+                _app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"],
+                _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_7__["DashboardComponent"],
+                _student_list_student_list_component__WEBPACK_IMPORTED_MODULE_8__["StudentListComponent"],
+                _curso_curso_component__WEBPACK_IMPORTED_MODULE_11__["CursoComponent"],
+                _nota_nota_component__WEBPACK_IMPORTED_MODULE_12__["NotaComponent"],
+                _student_dialog_student_dialog_component__WEBPACK_IMPORTED_MODULE_14__["StudentDialogComponent"],
+                _note_dialog_note_dialog_component__WEBPACK_IMPORTED_MODULE_15__["NoteDialogComponent"],
+                _student_dialog_student_dialog_component__WEBPACK_IMPORTED_MODULE_14__["StudentDialogComponent"],
+                _student_dialog_upd_student_dialog_upd_component__WEBPACK_IMPORTED_MODULE_16__["StudentDialogUpdComponent"],
+                _curso_dialog_upd_curso_dialog_upd_component__WEBPACK_IMPORTED_MODULE_17__["CursoDialogUpdComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
-                _app_routing_module__WEBPACK_IMPORTED_MODULE_4__["AppRoutingModule"],
-                _angular_common_http__WEBPACK_IMPORTED_MODULE_8__["HttpClientModule"],
-                _angular_forms__WEBPACK_IMPORTED_MODULE_3__["ReactiveFormsModule"]
+                _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_2__["BrowserAnimationsModule"],
+                _app_routing_module__WEBPACK_IMPORTED_MODULE_5__["AppRoutingModule"],
+                _angular_common_http__WEBPACK_IMPORTED_MODULE_9__["HttpClientModule"],
+                _angular_forms__WEBPACK_IMPORTED_MODULE_4__["ReactiveFormsModule"],
+                _material_module__WEBPACK_IMPORTED_MODULE_13__["MaterialModule"]
             ],
-            schemas: [_angular_core__WEBPACK_IMPORTED_MODULE_2__["CUSTOM_ELEMENTS_SCHEMA"]],
-            providers: [_services_api_service__WEBPACK_IMPORTED_MODULE_9__["ApiService"]],
-            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"]]
+            entryComponents: [
+                _student_dialog_student_dialog_component__WEBPACK_IMPORTED_MODULE_14__["StudentDialogComponent"],
+                _note_dialog_note_dialog_component__WEBPACK_IMPORTED_MODULE_15__["NoteDialogComponent"],
+                _student_dialog_upd_student_dialog_upd_component__WEBPACK_IMPORTED_MODULE_16__["StudentDialogUpdComponent"],
+                _curso_dialog_upd_curso_dialog_upd_component__WEBPACK_IMPORTED_MODULE_17__["CursoDialogUpdComponent"]
+            ],
+            schemas: [_angular_core__WEBPACK_IMPORTED_MODULE_3__["CUSTOM_ELEMENTS_SCHEMA"]],
+            providers: [_services_api_service__WEBPACK_IMPORTED_MODULE_10__["ApiService"]],
+            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"]]
         })
     ], AppModule);
     return AppModule;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/curso-dialog-upd/curso-dialog-upd.component.css":
+/*!*****************************************************************!*\
+  !*** ./src/app/curso-dialog-upd/curso-dialog-upd.component.css ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2N1cnNvLWRpYWxvZy11cGQvY3Vyc28tZGlhbG9nLXVwZC5jb21wb25lbnQuY3NzIn0= */"
+
+/***/ }),
+
+/***/ "./src/app/curso-dialog-upd/curso-dialog-upd.component.html":
+/*!******************************************************************!*\
+  !*** ./src/app/curso-dialog-upd/curso-dialog-upd.component.html ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class='dialogTitle'  class=\"mat-elevation-z4\">\r\n\r\n</div>\r\n<mat-dialog-content class=\"mat-elevation-z4\">\r\n  <ul *ngFor='let curso of curso'>\r\n      <mat-form-field appearance=\"standard\">\r\n          <mat-label>Nombre</mat-label>\r\n          <input matInput placeholder=\"Placeholder\" [formControl]=\"cursoName\" value = \"{{curso.name}}\" (input)='onNameChange($event.target.value)'  >\r\n          <mat-hint>Nombre</mat-hint>\r\n      </mat-form-field>\r\n\r\n      <mat-form-field appearance=\"standard\">\r\n        <mat-label>Codigo</mat-label>\r\n        <input matInput placeholder=\"Codigo\" [formControl]=\"cursoCode\"  value = \"{{curso.cursoCode}}\" (input)='onCodeChange($event.target.value)'>\r\n        <mat-hint>Codigo</mat-hint>\r\n      </mat-form-field>\r\n  </ul>\r\n</mat-dialog-content>\r\n<mat-dialog-actions>\r\n <button mat-button [mat-dialog-close]='true' (click)='saveData()'>ACEPTAR</button>\r\n\r\n</mat-dialog-actions>\r\n"
+
+/***/ }),
+
+/***/ "./src/app/curso-dialog-upd/curso-dialog-upd.component.ts":
+/*!****************************************************************!*\
+  !*** ./src/app/curso-dialog-upd/curso-dialog-upd.component.ts ***!
+  \****************************************************************/
+/*! exports provided: CursoDialogUpdComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CursoDialogUpdComponent", function() { return CursoDialogUpdComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
+/* harmony import */ var _services_api_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../services/api.service */ "./src/app/services/api.service.ts");
+
+
+
+
+
+var CursoDialogUpdComponent = /** @class */ (function () {
+    function CursoDialogUpdComponent(dataModal, api) {
+        this.dataModal = dataModal;
+        this.api = api;
+        this.cursoName = new _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormControl"]();
+        this.cursoCode = new _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormControl"]();
+        this.curso = [];
+        this.object = {};
+        this.curso = dataModal['data'];
+        console.log('el curso', this.curso);
+    }
+    CursoDialogUpdComponent.prototype.ngOnInit = function () {
+    };
+    CursoDialogUpdComponent.prototype.saveData = function () {
+        /*check changes*/
+        console.log('saliendo del modal', this.curso[0]);
+        this.api.updateItem(this.curso[0], 'cursos')
+            .subscribe(function (data) {
+            console.log('el curso se actualizo con exito', data);
+        });
+    };
+    CursoDialogUpdComponent.prototype.onNameChange = function (nameChange) {
+        console.log(nameChange);
+        this.curso[0].name = nameChange;
+    };
+    CursoDialogUpdComponent.prototype.onCodeChange = function (codeChange) {
+        console.log(codeChange);
+        this.curso[0].cursoCode = codeChange;
+    };
+    CursoDialogUpdComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-curso-dialog-upd',
+            template: __webpack_require__(/*! ./curso-dialog-upd.component.html */ "./src/app/curso-dialog-upd/curso-dialog-upd.component.html"),
+            styles: [__webpack_require__(/*! ./curso-dialog-upd.component.css */ "./src/app/curso-dialog-upd/curso-dialog-upd.component.css")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__param"](0, Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"])(_angular_material__WEBPACK_IMPORTED_MODULE_2__["MAT_DIALOG_DATA"])),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [Object, _services_api_service__WEBPACK_IMPORTED_MODULE_4__["ApiService"]])
+    ], CursoDialogUpdComponent);
+    return CursoDialogUpdComponent;
 }());
 
 
@@ -201,7 +313,7 @@ var AppModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2N1cnNvL2N1cnNvLmNvbXBvbmVudC5jc3MifQ== */"
+module.exports = "table {\r\n  width: 100%;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY3Vyc28vY3Vyc28uY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLFdBQVc7QUFDYiIsImZpbGUiOiJzcmMvYXBwL2N1cnNvL2N1cnNvLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJ0YWJsZSB7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbn1cclxuIl19 */"
 
 /***/ }),
 
@@ -212,7 +324,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  curso works!\n</p>\n"
+module.exports = "\r\n<div class='col'>\r\n    <mat-form-field appearance=\"legacy\">\r\n      <mat-label>Name</mat-label>\r\n      <input matInput placeholder=\"Ingress course name\" [formControl]='name' (change)='onNameChange()'>\r\n      <mat-hint>Name</mat-hint>\r\n    </mat-form-field>\r\n\r\n\r\n    <mat-form-field appearance=\"standard\">\r\n      <mat-label>Code</mat-label>\r\n      <input matInput placeholder=\"Placeholder\" [formControl]='cursoCode' (change)='onCodeChange()'>\r\n      <mat-hint>Code</mat-hint>\r\n    </mat-form-field>\r\n\r\n\r\n    <button mat-button (click)=\"createCourse()\">Register Course</button>\r\n</div>\r\n\r\n<table mat-table mat-table [dataSource]=\"dataSource\" class=\"mat-elevation-z8\" >\r\n\r\n<ng-container matColumnDef=\"name\">\r\n  <th mat-header-cell *matHeaderCellDef> Name </th>\r\n  <td mat-cell *matCellDef=\"let curso\"> {{curso.name}} </td>\r\n</ng-container>\r\n\r\n\r\n<ng-container matColumnDef=\"cursoCode\">\r\n    <th mat-header-cell *matHeaderCellDef> Code </th>\r\n    <td mat-cell *matCellDef=\"let curso\"> {{curso.cursoCode}} </td>\r\n  </ng-container>\r\n\r\n  <ng-container matColumnDef=\"actions\">\r\n      <th mat-header-cell *matHeaderCellDef> Actions </th>\r\n      <td mat-cell *matCellDef=\"let curso\">\r\n        <button (click)='deleteCurso(curso)'>delete</button>\r\n        <button (click)='openModalUpdate(curso)'>update</button>\r\n      </td>\r\n    </ng-container>\r\n\r\n    <tr mat-header-row *matHeaderRowDef=\"displayedColumns\"></tr>\r\n    <tr mat-row *matRowDef=\"let row; columns: displayedColumns;\" ></tr>\r\n\r\n</table>\r\n\r\n\r\n"
 
 /***/ }),
 
@@ -228,20 +340,111 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CursoComponent", function() { return CursoComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _services_api_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../services/api.service */ "./src/app/services/api.service.ts");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
+/* harmony import */ var _curso_dialog_upd_curso_dialog_upd_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../curso-dialog-upd/curso-dialog-upd.component */ "./src/app/curso-dialog-upd/curso-dialog-upd.component.ts");
+
+
+
+
+
 
 
 var CursoComponent = /** @class */ (function () {
-    function CursoComponent() {
+    function CursoComponent(api, dialog, changeDetectorRefs) {
+        var _this = this;
+        this.api = api;
+        this.dialog = dialog;
+        this.changeDetectorRefs = changeDetectorRefs;
+        this.displayedColumns = ['name', 'cursoCode', 'actions'];
+        this.courses = [];
+        this.object = {};
+        this.name = new _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormControl"]();
+        this.cursoCode = new _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormControl"]();
+        this.temp = [];
+        this.dataSource = new _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatTableDataSource"];
+        this.api.getItems('cursos').subscribe(function (courses) {
+            _this.courses = courses;
+            _this.dataSource.data = courses;
+            console.log('los cursos', courses);
+        });
     }
-    CursoComponent.prototype.ngOnInit = function () {
+    CursoComponent.prototype.ngAfterViewInit = function () {
+        this.dataSource.paginator = this.paginator;
     };
+    CursoComponent.prototype.createCourse = function () {
+        var _this = this;
+        this.api.createItem(this.object, 'cursos').subscribe(function (data) {
+            _this.courses = _this.courses.concat([
+                data
+            ]);
+            _this.dataSource.data = _this.courses;
+        });
+    };
+    /* deleteCourse(course) {
+      console.log('delete course', course);
+      this.api.deleteItem(course._id, 'cursos').subscribe(data => {
+        console.log('se elimino el curso');
+  
+        this.courses.splice(this.courses.findIndex(({_id}) => _id === data._id), 1);
+        console.log('el array reducido', this.courses);
+  
+        this.dataSource.data = this.courses;
+      });
+    } */
+    CursoComponent.prototype.onNameChange = function () {
+        console.log('el cambio', this.name.value);
+        this.object['name'] = this.name.value;
+    };
+    CursoComponent.prototype.onCodeChange = function () {
+        console.log('el cambio', this.name.value);
+        this.object['cursoCode'] = this.cursoCode.value;
+    };
+    CursoComponent.prototype.deleteCurso = function (curso) {
+        var _this = this;
+        console.log('delete curso', curso);
+        this.api.deleteItem(curso._id, 'cursos').subscribe(function (data) {
+            _this.courses.splice(_this.courses.findIndex(function (_a) {
+                var _id = _a._id;
+                return _id === data._id;
+            }), 1);
+            console.log('el array reducido', _this.courses);
+            _this.dataSource.data = _this.courses;
+        });
+    };
+    CursoComponent.prototype.viewCurso = function (curso) {
+        console.log('ver curso', curso);
+    };
+    CursoComponent.prototype.openModalUpdate = function (data) {
+        var _this = this;
+        this.temp.push(data);
+        console.log('modal update', data);
+        var dialogConfig2 = new _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatDialogConfig"]();
+        dialogConfig2.disableClose = true;
+        dialogConfig2.autoFocus = true;
+        dialogConfig2.data = {
+            data: this.temp
+        };
+        var dialogRef = this.dialog.open(_curso_dialog_upd_curso_dialog_upd_component__WEBPACK_IMPORTED_MODULE_5__["CursoDialogUpdComponent"], dialogConfig2);
+        dialogRef.afterClosed().subscribe(function (result) {
+            console.log('se cerro la ventana modal 2', result);
+            _this.temp = [];
+        });
+    };
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"])(_angular_material__WEBPACK_IMPORTED_MODULE_4__["MatPaginator"]),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatPaginator"])
+    ], CursoComponent.prototype, "paginator", void 0);
     CursoComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
             selector: 'app-curso',
             template: __webpack_require__(/*! ./curso.component.html */ "./src/app/curso/curso.component.html"),
             styles: [__webpack_require__(/*! ./curso.component.css */ "./src/app/curso/curso.component.css")]
         }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_services_api_service__WEBPACK_IMPORTED_MODULE_2__["ApiService"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatDialog"],
+            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]])
     ], CursoComponent);
     return CursoComponent;
 }());
@@ -296,14 +499,14 @@ var DashboardComponent = /** @class */ (function () {
     };
     DashboardComponent.prototype.getAllCourses = function () {
         var _this = this;
-        this.http.getCourses().subscribe(function (courses) {
+        this.http.getItems('cursos').subscribe(function (courses) {
             _this.courses = courses;
             console.log('el servicio : ', courses);
         });
     };
     DashboardComponent.prototype.getAllStudents = function () {
         var _this = this;
-        this.http.getStudents().subscribe(function (students) {
+        this.http.getItems('estudiantes').subscribe(function (students) {
             _this.students = students;
             console.log('el servicio students: ', students);
         });
@@ -323,23 +526,104 @@ var DashboardComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/models/student.ts":
-/*!***********************************!*\
-  !*** ./src/app/models/student.ts ***!
-  \***********************************/
-/*! exports provided: Student */
+/***/ "./src/app/material.module.ts":
+/*!************************************!*\
+  !*** ./src/app/material.module.ts ***!
+  \************************************/
+/*! exports provided: MaterialModule */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Student", function() { return Student; });
-var Student = /** @class */ (function () {
-    function Student(name, age, studentCode) {
-        this.name = name;
-        this.age = age;
-        this.studentCode = studentCode;
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MaterialModule", function() { return MaterialModule; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
+
+
+
+var MaterialModule = /** @class */ (function () {
+    function MaterialModule() {
     }
-    return Student;
+    MaterialModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
+            imports: [
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatAutocompleteModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatBadgeModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatBottomSheetModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatButtonModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatButtonToggleModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatCardModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatCheckboxModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatChipsModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatDatepickerModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatDialogModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatDividerModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatExpansionModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatGridListModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatIconModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatInputModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatListModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatMenuModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatNativeDateModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatPaginatorModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatProgressBarModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatProgressSpinnerModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatRadioModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatRippleModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatSelectModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatSidenavModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatSliderModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatSlideToggleModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatSnackBarModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatSortModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatStepperModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatTableModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatTabsModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatToolbarModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatTooltipModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatTreeModule"],
+            ],
+            exports: [
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatAutocompleteModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatBadgeModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatBottomSheetModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatButtonModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatButtonToggleModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatCardModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatCheckboxModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatChipsModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatDatepickerModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatDialogModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatDividerModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatExpansionModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatGridListModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatIconModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatInputModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatListModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatMenuModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatNativeDateModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatPaginatorModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatProgressBarModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatProgressSpinnerModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatRadioModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatRippleModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatSelectModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatSidenavModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatSliderModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatSlideToggleModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatSnackBarModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatSortModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatStepperModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatTableModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatTabsModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatToolbarModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatTooltipModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatTreeModule"],
+            ]
+        })
+    ], MaterialModule);
+    return MaterialModule;
 }());
 
 
@@ -353,7 +637,7 @@ var Student = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL25vdGEvbm90YS5jb21wb25lbnQuY3NzIn0= */"
+module.exports = "table {\r\n  width: 100%;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbm90YS9ub3RhLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxXQUFXO0FBQ2IiLCJmaWxlIjoic3JjL2FwcC9ub3RhL25vdGEuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbInRhYmxlIHtcclxuICB3aWR0aDogMTAwJTtcclxufVxyXG4iXX0= */"
 
 /***/ }),
 
@@ -364,7 +648,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  nota works!\n</p>\n"
+module.exports = "\r\n<div class='row'>\r\n    <div class=\"col\">\r\n    <mat-form-field>\r\n      <mat-select placeholder=\"Curso\">\r\n        <mat-option *ngFor=\"let course of courses\" [value]=\"course._id\" (click)= 'changeCourse(course._id)'>\r\n          {{course.name}}\r\n        </mat-option>\r\n      </mat-select>\r\n    </mat-form-field>\r\n\r\n     <mat-form-field>\r\n      <mat-select placeholder=\"Estudiante\">\r\n        <mat-option *ngFor=\"let student of students\" [value]=\"student._id\" (click)='changeStudent(student._id)'>\r\n          {{student.name}}\r\n        </mat-option>\r\n      </mat-select>\r\n    </mat-form-field>\r\n\r\n    <mat-form-field class=\"example-full-width\">\r\n        <input matInput  [formControl]='nombre_evaluacion' (change)='onNameTestChange()' placeholder=\"Nombre evaluacion\" value=\"\">\r\n    </mat-form-field>\r\n\r\n    <mat-form-field class=\"example-full-width\">\r\n        <input  [formControl]='calificacion' (change)='onCalificacionChange()' matInput placeholder=\"Calificacion\" value=\"\">\r\n    </mat-form-field>\r\n  </div>\r\n    <div class='col'>\r\n      <button mat-flat-button color=\"primary\" (click)='createNote()'>Crear</button>\r\n    </div>\r\n</div>\r\n\r\n\r\n\r\n\r\n<table  mat-table #table [dataSource]=\"dataSource\" class=\"mat-elevation-z8\" >\r\n\r\n    <ng-container matColumnDef=\"name\">\r\n      <th mat-header-cell *matHeaderCellDef> Name </th>\r\n      <td mat-cell *matCellDef=\"let nota\"> {{nota.id_estudiante['name']}} </td>\r\n    </ng-container>\r\n\r\n    <ng-container matColumnDef=\"nombre_evaluacion\">\r\n      <th mat-header-cell *matHeaderCellDef> evaluacion </th>\r\n      <td mat-cell *matCellDef=\"let nota\"> {{nota.nombre_evaluacion}} </td>\r\n    </ng-container>\r\n\r\n\r\n    <ng-container matColumnDef=\"calificacion\">\r\n      <th mat-header-cell *matHeaderCellDef> Calificacion </th>\r\n      <td mat-cell *matCellDef=\"let nota\"> {{nota.calificacion}} </td>\r\n    </ng-container>\r\n\r\n\r\n\r\n       <ng-container matColumnDef=\"curso\">\r\n          <th mat-header-cell *matHeaderCellDef> Curso </th>\r\n          <td mat-cell *matCellDef=\"let nota\"> {{nota.id_curso['name']}} </td>\r\n        </ng-container>\r\n\r\n      <ng-container matColumnDef=\"actions\">\r\n          <th mat-header-cell *matHeaderCellDef> Actions </th>\r\n          <td mat-cell *matCellDef=\"let nota\">\r\n            <button  (click)='deleteNote(nota)'>delete</button>\r\n            <button  (click)='openModal(nota)'>update</button>\r\n          </td>\r\n      </ng-container>\r\n\r\n  <!--  <button mat-flat-button color=\"primary\" (click)='openModal(student)'>View</button> -->\r\n\r\n    <tr mat-header-row *matHeaderRowDef=\"displayedColumns\"></tr>\r\n    <tr mat-row *matRowDef=\"let row; columns: displayedColumns;\" ></tr>\r\n\r\n  </table>\r\n\r\n\r\n\r\n"
 
 /***/ }),
 
@@ -380,22 +664,227 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NotaComponent", function() { return NotaComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _services_api_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../services/api.service */ "./src/app/services/api.service.ts");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
+/* harmony import */ var _note_dialog_note_dialog_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../note-dialog/note-dialog.component */ "./src/app/note-dialog/note-dialog.component.ts");
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
+
+
+
+
+
 
 
 var NotaComponent = /** @class */ (function () {
-    function NotaComponent() {
+    function NotaComponent(api, dialog, changeDetectorRefs) {
+        var _this = this;
+        this.api = api;
+        this.dialog = dialog;
+        this.changeDetectorRefs = changeDetectorRefs;
+        this.displayedColumns = ['name', 'nombre_evaluacion', 'calificacion', 'curso', 'actions'];
+        this.courses = [];
+        this.students = [];
+        this.notes = [];
+        this.calificacion = new _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormControl"]();
+        this.nombre_evaluacion = new _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormControl"]();
+        this.object = {};
+        this.temp = [];
+        this.dataSource = new _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatTableDataSource"];
+        this.api.getItems('cursos').subscribe(function (courses) {
+            _this.courses = courses;
+            console.log('los cursos', courses);
+        });
+        this.api.getItems('estudiantes').subscribe(function (students) {
+            console.log('los estudiantes', students);
+            _this.students = students;
+        });
+        this.api.getItems('notas').subscribe(function (notes) {
+            console.log('las notas', notes);
+            _this.notes = notes;
+            _this.dataSource.data = notes;
+        });
     }
+    NotaComponent.prototype.ngAfterViewInit = function () {
+        this.dataSource.paginator = this.paginator;
+    };
     NotaComponent.prototype.ngOnInit = function () {
     };
+    NotaComponent.prototype.onNameTestChange = function () {
+        console.log('el cambio', this.nombre_evaluacion.value);
+        this.object['nombre_evaluacion'] = this.nombre_evaluacion.value;
+    };
+    NotaComponent.prototype.onCalificacionChange = function () {
+        console.log('el cambio', this.calificacion.value);
+        this.object['calificacion'] = this.calificacion.value;
+    };
+    NotaComponent.prototype.changeStudent = function (selectedId) {
+        console.log('el seleccionado es:', selectedId);
+        this.object['id_estudiante'] = selectedId;
+    };
+    NotaComponent.prototype.changeCourse = function (courseId) {
+        console.log('el seleccionado es:', courseId);
+        this.object['id_curso'] = courseId;
+    };
+    NotaComponent.prototype.createNote = function () {
+        var _this = this;
+        this.api.createItem(this.object, 'notas').subscribe(function (data) {
+            console.log('esto llega del servicio', data);
+            _this.notes = _this.notes.concat([
+                data
+            ]);
+            _this.dataSource.data = _this.notes;
+        });
+    };
+    NotaComponent.prototype.deleteNote = function (note) {
+        var _this = this;
+        this.api.deleteItem(note._id, 'notas').subscribe(function (data) {
+            _this.notes.splice(_this.notes.findIndex(function (_a) {
+                var _id = _a._id;
+                return _id === data._id;
+            }), 1);
+            _this.dataSource.data = _this.notes;
+        });
+    };
+    NotaComponent.prototype.openModal = function (data) {
+        var _this = this;
+        this.temp.push(data);
+        var dialogConfig = new _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatDialogConfig"]();
+        dialogConfig.disableClose = true;
+        dialogConfig.autoFocus = true;
+        dialogConfig.data = {
+            notes: this.temp
+        };
+        var dialogRef = this.dialog.open(_note_dialog_note_dialog_component__WEBPACK_IMPORTED_MODULE_4__["NoteDialogComponent"], dialogConfig);
+        dialogRef.afterClosed().subscribe(function (result) {
+            _this.temp = [];
+        });
+    };
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"])(_angular_material__WEBPACK_IMPORTED_MODULE_5__["MatPaginator"]),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatPaginator"])
+    ], NotaComponent.prototype, "paginator", void 0);
     NotaComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
             selector: 'app-nota',
             template: __webpack_require__(/*! ./nota.component.html */ "./src/app/nota/nota.component.html"),
             styles: [__webpack_require__(/*! ./nota.component.css */ "./src/app/nota/nota.component.css")]
         }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_services_api_service__WEBPACK_IMPORTED_MODULE_2__["ApiService"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatDialog"],
+            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]])
     ], NotaComponent);
     return NotaComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/note-dialog/note-dialog.component.css":
+/*!*******************************************************!*\
+  !*** ./src/app/note-dialog/note-dialog.component.css ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL25vdGUtZGlhbG9nL25vdGUtZGlhbG9nLmNvbXBvbmVudC5jc3MifQ== */"
+
+/***/ }),
+
+/***/ "./src/app/note-dialog/note-dialog.component.html":
+/*!********************************************************!*\
+  !*** ./src/app/note-dialog/note-dialog.component.html ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class='dialogTitle'  class=\"mat-elevation-z4\">\r\n\r\n  </div>\r\n  <mat-dialog-content class=\"mat-elevation-z4\">\r\n    <ul *ngFor='let nota of notas'>\r\n        <mat-form-field appearance=\"standard\">\r\n            <mat-label>Nombre</mat-label>\r\n            <input matInput placeholder=\"Placeholder\" [formControl]=\"name_user\" (input)='onNameStudentChange(nota.id_estudiante,$event.target.value)'  value = \"{{nota.id_estudiante.name}}\">\r\n            <mat-hint>Nombre</mat-hint>\r\n        </mat-form-field>\r\n\r\n        <mat-form-field appearance=\"standard\">\r\n          <mat-label>Curso</mat-label>\r\n          <input matInput placeholder=\"Placeholder\" [formControl]=\"name_course\" (input)='onNameCourseChange(nota.id_curso, $event.target.value)'  value = \"{{nota.id_curso.name}}\">\r\n          <mat-hint>Curso</mat-hint>\r\n      </mat-form-field>\r\n\r\n      <mat-form-field appearance=\"standard\">\r\n        <mat-label>N. Evaluacion</mat-label>\r\n        <input matInput placeholder=\"Evaluacion\" [formControl]=\"name_test\" (input)='onEvaluacionChange($event.target.value)'  value = \"{{nota.calificacion}}\">\r\n        <mat-hint>Calificacion</mat-hint>\r\n    </mat-form-field>\r\n\r\n      <mat-form-field appearance=\"standard\">\r\n        <mat-label>Calificacion</mat-label>\r\n        <input matInput placeholder=\"Calificacion\" [formControl]=\"calificacion\" (input)='onCalificacionChange($event.target.value)'  value = \"{{nota.calificacion}}\">\r\n        <mat-hint>curso</mat-hint>\r\n    </mat-form-field>\r\n\r\n    </ul>\r\n  </mat-dialog-content>\r\n  <mat-dialog-actions>\r\n   <button mat-button [mat-dialog-close]='true' (click)='saveData()'>ACEPTAR</button>\r\n\r\n  </mat-dialog-actions>\r\n"
+
+/***/ }),
+
+/***/ "./src/app/note-dialog/note-dialog.component.ts":
+/*!******************************************************!*\
+  !*** ./src/app/note-dialog/note-dialog.component.ts ***!
+  \******************************************************/
+/*! exports provided: NoteDialogComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NoteDialogComponent", function() { return NoteDialogComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
+/* harmony import */ var _services_api_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../services/api.service */ "./src/app/services/api.service.ts");
+
+
+
+
+
+var NoteDialogComponent = /** @class */ (function () {
+    function NoteDialogComponent(dataModal, api) {
+        this.dataModal = dataModal;
+        this.api = api;
+        this.name_user = new _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormControl"]();
+        this.name_course = new _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormControl"]();
+        this.calificacion = new _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormControl"]();
+        this.name_test = new _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormControl"]();
+        this.object = {};
+        this.notas = dataModal['notes'];
+        /*  this.name_user = this.notas.id_estudiante[name]; */
+        console.log('las notas', this.notas[0]);
+    }
+    NoteDialogComponent.prototype.ngOnInit = function () {
+    };
+    NoteDialogComponent.prototype.saveData = function () {
+        /*check changes*/
+        console.log('saliendo del modal');
+        if (this.actualStudent && this.actualStudent.name !== this.upd_name_student) {
+            /*send request update to server*/
+            this.actualStudent.name = this.upd_name_student;
+            this.api.updateItem(this.actualStudent, 'estudiantes')
+                .subscribe(function (data) {
+                console.log('el estudiante se actualizo con exito', data);
+            });
+        }
+        console.log('veamos el resultado: ', this.actualStudent);
+        if (this.actualCourse && this.actualCourse.name !== this.upd_name_curso) {
+            this.actualCourse.name = this.upd_name_curso;
+            this.api.updateItem(this.actualCourse, 'cursos')
+                .subscribe(function (data) {
+                console.log('el curso se actualizo con exito', data);
+            });
+        }
+        console.log('segundo resultado', this.actualCourse);
+    };
+    NoteDialogComponent.prototype.onNameStudentChange = function (student, nameChange) {
+        console.log(student, nameChange, this.name_user);
+        this.upd_name_student = nameChange;
+        this.actualStudent = student;
+    };
+    NoteDialogComponent.prototype.onNameCourseChange = function (course, nameChange) {
+        console.log(course, nameChange, this.name_course);
+        this.upd_name_curso = nameChange;
+        this.actualCourse = course;
+    };
+    NoteDialogComponent.prototype.onCalificacionChange = function (calificacion) {
+        console.log(calificacion);
+        this.upd_calificacion = calificacion;
+    };
+    NoteDialogComponent.prototype.onEvaluacionChange = function (evaluacion) {
+        console.log(evaluacion);
+    };
+    NoteDialogComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-note-dialog',
+            template: __webpack_require__(/*! ./note-dialog.component.html */ "./src/app/note-dialog/note-dialog.component.html"),
+            styles: [__webpack_require__(/*! ./note-dialog.component.css */ "./src/app/note-dialog/note-dialog.component.css")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__param"](0, Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"])(_angular_material__WEBPACK_IMPORTED_MODULE_2__["MAT_DIALOG_DATA"])),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [Object, _services_api_service__WEBPACK_IMPORTED_MODULE_4__["ApiService"]])
+    ], NoteDialogComponent);
+    return NoteDialogComponent;
 }());
 
 
@@ -427,10 +916,13 @@ var ApiService = /** @class */ (function () {
         this._url = 'https://nodejs-express-api.herokuapp.com';
     }
     ApiService.prototype.getNotesByStudentId = function (studentId) {
-        return this.http.get(this._url + "/api/notas/" + studentId);
+        return this.http.get(this._url + "/api/notas/" + studentId)
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (data) {
+            return data;
+        }));
     };
-    ApiService.prototype.getStudents = function () {
-        return this.http.get(this._url + "/students")
+    ApiService.prototype.getItems = function (endpoint) {
+        return this.http.get(this._url + "/" + endpoint)
             .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (data) {
             if (data['results']) {
                 return data['results'];
@@ -440,36 +932,24 @@ var ApiService = /** @class */ (function () {
             }
         }));
     };
-    ApiService.prototype.getCourses = function () {
-        return this.http.get(this._url + "/cursos")
-            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (data) {
-            if (data['results']) {
-                return data['results'];
-            }
-            else {
-                return data;
-            }
-        }));
-    };
-    /*  createStudent(student) {
-       console.log('vamos a crear estudiante', student);
-   
-   
-        this.http.post<any>(`${this._url}/students`, student)
-         .pipe(
-           map((data) => {
-             console.log('saliendo de map', data);
-   
-             return data;
-           })
-         );
-   
-     } */
-    ApiService.prototype.createStudent = function (student) {
-        console.log('vamos a crear estudiante', student);
-        return this.http.post(this._url + "/students", student)
+    ApiService.prototype.createItem = function (object, endpoint) {
+        console.log("vamos a crear " + endpoint + " ", object);
+        return this.http.post(this._url + "/" + endpoint, object)
             .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (data) {
             console.log('saliendo de map', data);
+            return data;
+        }));
+    };
+    ApiService.prototype.deleteItem = function (itemId, endpoint) {
+        console.log('vamos a eliminar ', itemId, endpoint);
+        return this.http.delete(this._url + "/" + endpoint + "/" + itemId)
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (data) {
+            return data;
+        }));
+    };
+    ApiService.prototype.updateItem = function (item, endpoint) {
+        return this.http.put(this._url + "/" + endpoint + "/" + item._id, item)
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (data) {
             return data;
         }));
     };
@@ -486,6 +966,163 @@ var ApiService = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/student-dialog-upd/student-dialog-upd.component.css":
+/*!*********************************************************************!*\
+  !*** ./src/app/student-dialog-upd/student-dialog-upd.component.css ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3N0dWRlbnQtZGlhbG9nLXVwZC9zdHVkZW50LWRpYWxvZy11cGQuY29tcG9uZW50LmNzcyJ9 */"
+
+/***/ }),
+
+/***/ "./src/app/student-dialog-upd/student-dialog-upd.component.html":
+/*!**********************************************************************!*\
+  !*** ./src/app/student-dialog-upd/student-dialog-upd.component.html ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class='dialogTitle'  class=\"mat-elevation-z4\">\r\n\r\n</div>\r\n<mat-dialog-content class=\"mat-elevation-z4\">\r\n  <ul *ngFor='let student of student'>\r\n      <mat-form-field appearance=\"standard\">\r\n          <mat-label>Nombre</mat-label>\r\n          <input matInput placeholder=\"Placeholder\" [formControl]=\"studentName\" value = \"{{student.name}}\" (input)='onNameChange($event.target.value)'  >\r\n          <mat-hint>Nombre</mat-hint>\r\n      </mat-form-field>\r\n\r\n      <mat-form-field appearance=\"standard\">\r\n        <mat-label>Edad</mat-label>\r\n        <input matInput placeholder=\"Edad\" [formControl]=\"age\"  value = \"{{student.age}}\" (input)='onAgeChange($event.target.value)'>\r\n        <mat-hint>Edad</mat-hint>\r\n      </mat-form-field>\r\n\r\n     <mat-form-field appearance=\"standard\">\r\n      <mat-label>Codigo</mat-label>\r\n      <input matInput placeholder=\"Evaluacion\" [formControl]=\"studentCode\"  value = \"{{student.studentCode}}\" (input)='onCodeChange($event.target.value)'>\r\n      <mat-hint>Codigo</mat-hint>\r\n     </mat-form-field>\r\n  </ul>\r\n</mat-dialog-content>\r\n<mat-dialog-actions>\r\n <button mat-button [mat-dialog-close]='true' (click)='saveData()'>ACEPTAR</button>\r\n\r\n</mat-dialog-actions>\r\n"
+
+/***/ }),
+
+/***/ "./src/app/student-dialog-upd/student-dialog-upd.component.ts":
+/*!********************************************************************!*\
+  !*** ./src/app/student-dialog-upd/student-dialog-upd.component.ts ***!
+  \********************************************************************/
+/*! exports provided: StudentDialogUpdComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StudentDialogUpdComponent", function() { return StudentDialogUpdComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
+/* harmony import */ var _services_api_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../services/api.service */ "./src/app/services/api.service.ts");
+
+
+
+
+
+var StudentDialogUpdComponent = /** @class */ (function () {
+    function StudentDialogUpdComponent(dataModal, api) {
+        this.dataModal = dataModal;
+        this.api = api;
+        this.studentName = new _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormControl"]();
+        this.age = new _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormControl"]();
+        this.studentCode = new _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormControl"]();
+        this.student = [];
+        this.object = {};
+        this.student = dataModal['data'];
+        console.log('el estudiante', this.student);
+    }
+    StudentDialogUpdComponent.prototype.ngOnInit = function () {
+    };
+    StudentDialogUpdComponent.prototype.saveData = function () {
+        /*check changes*/
+        console.log('saliendo del modal', this.student[0]);
+        this.api.updateItem(this.student[0], 'estudiantes')
+            .subscribe(function (data) {
+            console.log('el estudiante se actualizo con exito', data);
+        });
+    };
+    StudentDialogUpdComponent.prototype.onNameStudentChange = function (student, nameChange) {
+        console.log(student, nameChange, this.studentName);
+    };
+    StudentDialogUpdComponent.prototype.onNameChange = function (nameChange) {
+        console.log(nameChange);
+        this.student[0].name = nameChange;
+    };
+    StudentDialogUpdComponent.prototype.onAgeChange = function (ageChange) {
+        console.log(ageChange);
+        this.student[0].age = ageChange;
+    };
+    StudentDialogUpdComponent.prototype.onCodeChange = function (codeChange) {
+        console.log(codeChange);
+        this.student[0].studentCode = codeChange;
+    };
+    StudentDialogUpdComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-student-dialog-upd',
+            template: __webpack_require__(/*! ./student-dialog-upd.component.html */ "./src/app/student-dialog-upd/student-dialog-upd.component.html"),
+            styles: [__webpack_require__(/*! ./student-dialog-upd.component.css */ "./src/app/student-dialog-upd/student-dialog-upd.component.css")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__param"](0, Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"])(_angular_material__WEBPACK_IMPORTED_MODULE_2__["MAT_DIALOG_DATA"])),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [Object, _services_api_service__WEBPACK_IMPORTED_MODULE_4__["ApiService"]])
+    ], StudentDialogUpdComponent);
+    return StudentDialogUpdComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/student-dialog/student-dialog.component.css":
+/*!*************************************************************!*\
+  !*** ./src/app/student-dialog/student-dialog.component.css ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3N0dWRlbnQtZGlhbG9nL3N0dWRlbnQtZGlhbG9nLmNvbXBvbmVudC5jc3MifQ== */"
+
+/***/ }),
+
+/***/ "./src/app/student-dialog/student-dialog.component.html":
+/*!**************************************************************!*\
+  !*** ./src/app/student-dialog/student-dialog.component.html ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class='dialogTitle'  class=\"mat-elevation-z4\">\n\n</div>\n<mat-dialog-content class=\"mat-elevation-z4\">\n  <ul *ngFor='let nota of notas'>\n      <li><span>{{nota.id_curso['name']}}</span>\n        <ol>{{nota.nombre_evaluacion}}</ol>\n        <ol>{{nota.calificacion}}</ol>\n      </li>\n\n  </ul>\n</mat-dialog-content>\n<mat-dialog-actions>\n <button mat-button [mat-dialog-close]='true'>Ok</button>\n\n</mat-dialog-actions>\n"
+
+/***/ }),
+
+/***/ "./src/app/student-dialog/student-dialog.component.ts":
+/*!************************************************************!*\
+  !*** ./src/app/student-dialog/student-dialog.component.ts ***!
+  \************************************************************/
+/*! exports provided: StudentDialogComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StudentDialogComponent", function() { return StudentDialogComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
+
+
+
+var StudentDialogComponent = /** @class */ (function () {
+    function StudentDialogComponent(dataModal) {
+        this.dataModal = dataModal;
+        this.notas = dataModal['notes'];
+        console.log('las notas', this.notas);
+    }
+    StudentDialogComponent.prototype.ngOnInit = function () {
+    };
+    StudentDialogComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-student-dialog',
+            template: __webpack_require__(/*! ./student-dialog.component.html */ "./src/app/student-dialog/student-dialog.component.html"),
+            styles: [__webpack_require__(/*! ./student-dialog.component.css */ "./src/app/student-dialog/student-dialog.component.css")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__param"](0, Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"])(_angular_material__WEBPACK_IMPORTED_MODULE_2__["MAT_DIALOG_DATA"])),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [Object])
+    ], StudentDialogComponent);
+    return StudentDialogComponent;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/student-list/student-list.component.css":
 /*!*********************************************************!*\
   !*** ./src/app/student-list/student-list.component.css ***!
@@ -493,7 +1130,7 @@ var ApiService = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3N0dWRlbnQtbGlzdC9zdHVkZW50LWxpc3QuY29tcG9uZW50LmNzcyJ9 */"
+module.exports = "table {\r\n  width: 100%;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvc3R1ZGVudC1saXN0L3N0dWRlbnQtbGlzdC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsV0FBVztBQUNiIiwiZmlsZSI6InNyYy9hcHAvc3R1ZGVudC1saXN0L3N0dWRlbnQtbGlzdC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsidGFibGUge1xyXG4gIHdpZHRoOiAxMDAlO1xyXG59XHJcbiJdfQ== */"
 
 /***/ }),
 
@@ -504,7 +1141,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<form [formGroup]=\"form\" (ngSubmit)=\"addStudent()\">\n  <vaadin-text-field\n    label=\"Name\"\n    formControlName=\"name\"\n    ngDefaultControl>\n  </vaadin-text-field>\n  <vaadin-text-field\n    label=\"Age\"\n    formControlName=\"age\"\n    ngDefaultControl>\n  </vaadin-text-field>\n  <vaadin-text-field\n    label=\"Student code\"\n    formControlName=\"studentCode\"\n    ngDefaultControl>\n  </vaadin-text-field>\n  <vaadin-button (click)=\"addStudent()\"> Add Student </vaadin-button>\n</form>\n\n<vaadin-grid [items]=\"student\">\n  <vaadin-grid-column path=\"name\" header=\"First name\"></vaadin-grid-column>\n  <vaadin-grid-column path=\"age\" header=\"Age\"> </vaadin-grid-column>\n  <vaadin-grid-column path=\"studentCode\" header=\"Code\"> </vaadin-grid-column>\n</vaadin-grid>\n"
+module.exports = "\r\n<div class='col'>\r\n      <mat-form-field appearance=\"legacy\">\r\n        <mat-label>Name</mat-label>\r\n        <input matInput placeholder=\"Ingress student name\" [formControl]='name' (change)='onNameChange()'>\r\n        <mat-hint>Name</mat-hint>\r\n      </mat-form-field>\r\n\r\n\r\n      <mat-form-field appearance=\"standard\">\r\n        <mat-label>Age</mat-label>\r\n        <input matInput placeholder=\"Placeholder\" [formControl]='age' (change)='onAgeChange()'>\r\n        <mat-hint>Age</mat-hint>\r\n      </mat-form-field>\r\n\r\n\r\n      <mat-form-field appearance=\"standard\">\r\n          <mat-label>Code</mat-label>\r\n          <input matInput placeholder=\"Placeholder\" [formControl]='studentCode' (change)='onCodeChange()'>\r\n          <mat-hint>Student code</mat-hint>\r\n        </mat-form-field>\r\n\r\n      <button  mat-stroked-button color=\"primary\" (click)=\"createStudent()\">Register student</button>\r\n  </div>\r\n\r\n  <table  mat-table #table [dataSource]=\"dataSource\" class=\"mat-elevation-z8\" >\r\n\r\n  <ng-container matColumnDef=\"name\">\r\n    <th mat-header-cell *matHeaderCellDef> Name </th>\r\n    <td mat-cell *matCellDef=\"let student\"> {{student.name}} </td>\r\n  </ng-container>\r\n\r\n\r\n  <ng-container matColumnDef=\"age\">\r\n    <th mat-header-cell *matHeaderCellDef> Age </th>\r\n    <td mat-cell *matCellDef=\"let student\"> {{student.age}} </td>\r\n  </ng-container>\r\n\r\n  <ng-container matColumnDef=\"studentCode\">\r\n      <th mat-header-cell *matHeaderCellDef> Code </th>\r\n      <td mat-cell *matCellDef=\"let student\"> {{student.studentCode}} </td>\r\n    </ng-container>\r\n\r\n      <ng-container matColumnDef=\"actions\">\r\n        <th mat-header-cell *matHeaderCellDef> Actions </th>\r\n        <td mat-cell *matCellDef=\"let student\">\r\n          <button  (click)='deleteStudent(student)'>delete</button>\r\n          <button  (click)='openModalUpdate(student)'>update</button>\r\n          <button  (click)='openModal(student)'>View</button>\r\n\r\n        </td>\r\n    </ng-container>\r\n\r\n  <tr mat-header-row *matHeaderRowDef=\"displayedColumns\"></tr>\r\n  <tr mat-row *matRowDef=\"let row; columns: displayedColumns;\" ></tr>\r\n\r\n</table>\r\n\r\n\r\n"
 
 /***/ }),
 
@@ -520,12 +1157,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StudentListComponent", function() { return StudentListComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _vaadin_vaadin_button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @vaadin/vaadin-button */ "./node_modules/@vaadin/vaadin-button/vaadin-button.js");
-/* harmony import */ var _vaadin_vaadin_grid__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @vaadin/vaadin-grid */ "./node_modules/@vaadin/vaadin-grid/vaadin-grid.js");
-/* harmony import */ var _vaadin_vaadin_text_field__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @vaadin/vaadin-text-field */ "./node_modules/@vaadin/vaadin-text-field/vaadin-text-field.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
-/* harmony import */ var _models_student__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../models/student */ "./src/app/models/student.ts");
-/* harmony import */ var _services_api_service__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../services/api.service */ "./src/app/services/api.service.ts");
+/* harmony import */ var _services_api_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../services/api.service */ "./src/app/services/api.service.ts");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
+/* harmony import */ var _student_dialog_student_dialog_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../student-dialog/student-dialog.component */ "./src/app/student-dialog/student-dialog.component.ts");
+/* harmony import */ var _student_dialog_upd_student_dialog_upd_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../student-dialog-upd/student-dialog-upd.component */ "./src/app/student-dialog-upd/student-dialog-upd.component.ts");
 
 
 
@@ -535,46 +1171,119 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var StudentListComponent = /** @class */ (function () {
-    function StudentListComponent(api) {
+    function StudentListComponent(api, dialog, changeDetectorRefs) {
         var _this = this;
         this.api = api;
-        this.student = [];
-        this.form = new _angular_forms__WEBPACK_IMPORTED_MODULE_5__["FormGroup"]({
-            name: new _angular_forms__WEBPACK_IMPORTED_MODULE_5__["FormControl"](''),
-            age: new _angular_forms__WEBPACK_IMPORTED_MODULE_5__["FormControl"](''),
-            studentCode: new _angular_forms__WEBPACK_IMPORTED_MODULE_5__["FormControl"]('')
-        });
-        this.api.getStudents().subscribe(function (students) {
-            _this.student = students;
+        this.dialog = dialog;
+        this.changeDetectorRefs = changeDetectorRefs;
+        this.displayedColumns = ['name', 'age', 'studentCode', 'actions'];
+        this.students = [];
+        this.studentNotes = [];
+        this.name = new _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormControl"]();
+        this.age = new _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormControl"]();
+        this.studentCode = new _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormControl"]();
+        this.object = {};
+        this.temp = [];
+        this.dataSource = new _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatTableDataSource"];
+        this.api.getItems('estudiantes').subscribe(function (students) {
+            /*   this.dataSource = students; */
+            _this.students = students;
+            _this.dataSource.data = students;
             console.log('los estudiantes', students);
         });
     }
+    StudentListComponent.prototype.ngAfterViewInit = function () {
+        this.dataSource.paginator = this.paginator;
+    };
     StudentListComponent.prototype.ngOnInit = function () {
     };
-    StudentListComponent.prototype.addStudent = function () {
-        var name = this.form.value.name;
-        var age = this.form.value.age;
-        var studentCode = this.form.value.studentCode;
-        var student = {
-            name: 'andress',
-            age: age,
-            studentCode: studentCode
-        };
-        this.api.createStudent(student).subscribe(function (data) {
-            console.log('el usuario se cre', data);
+    StudentListComponent.prototype.createStudent = function () {
+        var _this = this;
+        this.api.createItem(this.object, 'estudiantes').subscribe(function (data) {
+            _this.students = _this.students.concat([
+                data
+            ]);
+            _this.dataSource.data = _this.students;
+            console.log('lo que creamos', _this.students);
         });
-        this.student = this.student.concat([
-            new _models_student__WEBPACK_IMPORTED_MODULE_6__["Student"](this.form.value.name, this.form.value.age, this.form.value.studentCode)
-        ]);
-        /* this.form.reset(); */
     };
+    StudentListComponent.prototype.deleteStudent = function (student) {
+        var _this = this;
+        this.dataSource.data = [];
+        console.log('delete student', student);
+        this.api.deleteItem(student._id, 'estudiantes').subscribe(function (data) {
+            console.log('el dato subscrito:', data);
+            _this.students.splice(_this.students.findIndex(function (_a) {
+                var _id = _a._id;
+                return _id === data._id;
+            }), 1);
+            console.log('el array reducido', _this.students);
+            _this.dataSource.data = _this.students;
+        });
+    };
+    StudentListComponent.prototype.viewStudent = function (student) {
+        console.log('update student', student);
+    };
+    StudentListComponent.prototype.onNameChange = function () {
+        console.log('el cambio', this.name.value);
+        this.object['name'] = this.name.value;
+    };
+    StudentListComponent.prototype.onAgeChange = function () {
+        console.log('el cambio', this.age.value);
+        this.object['age'] = this.age.value;
+    };
+    StudentListComponent.prototype.onCodeChange = function () {
+        console.log('el cambio', this.studentCode.value);
+        this.object['studentCode'] = this.studentCode.value;
+    };
+    StudentListComponent.prototype.openModal = function (data) {
+        var _this = this;
+        this.getStudentNotes(data).subscribe(function (notes) {
+            console.log('notes como array', notes);
+            var dialogConfig = new _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatDialogConfig"]();
+            dialogConfig.disableClose = true;
+            dialogConfig.autoFocus = true;
+            dialogConfig.data = {
+                notes: notes
+            };
+            var dialogRef = _this.dialog.open(_student_dialog_student_dialog_component__WEBPACK_IMPORTED_MODULE_5__["StudentDialogComponent"], dialogConfig);
+            dialogRef.afterClosed().subscribe(function (result) {
+                console.log('se cerro la ventana modal');
+            });
+        });
+    };
+    StudentListComponent.prototype.openModalUpdate = function (data) {
+        var _this = this;
+        this.temp.push(data);
+        console.log('modal update', data);
+        var dialogConfig2 = new _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatDialogConfig"]();
+        dialogConfig2.disableClose = true;
+        dialogConfig2.autoFocus = true;
+        dialogConfig2.data = {
+            data: this.temp
+        };
+        var dialogRef = this.dialog.open(_student_dialog_upd_student_dialog_upd_component__WEBPACK_IMPORTED_MODULE_6__["StudentDialogUpdComponent"], dialogConfig2);
+        dialogRef.afterClosed().subscribe(function (result) {
+            console.log('se cerro la ventana modal 2', result);
+            _this.temp = [];
+        });
+    };
+    StudentListComponent.prototype.getStudentNotes = function (student) {
+        return this.api.getNotesByStudentId(student._id);
+    };
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"])(_angular_material__WEBPACK_IMPORTED_MODULE_4__["MatPaginator"]),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatPaginator"])
+    ], StudentListComponent.prototype, "paginator", void 0);
     StudentListComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
             selector: 'app-student-list',
             template: __webpack_require__(/*! ./student-list.component.html */ "./src/app/student-list/student-list.component.html"),
             styles: [__webpack_require__(/*! ./student-list.component.css */ "./src/app/student-list/student-list.component.css")]
         }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_services_api_service__WEBPACK_IMPORTED_MODULE_7__["ApiService"]])
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_services_api_service__WEBPACK_IMPORTED_MODULE_2__["ApiService"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatDialog"],
+            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]])
     ], StudentListComponent);
     return StudentListComponent;
 }());

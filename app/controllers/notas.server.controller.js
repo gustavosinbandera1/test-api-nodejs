@@ -9,25 +9,18 @@ _ = require('lodash');
  
  exports.list = function(req, res) {
     console.log('entramos a las notas ');
-	 NotaModel.find({}, function(err,notas){
-         if(err) {
-             res.json({
-                 message: 'Error trying to List notas'
-             });
-         }else {
-             res.json(notas);
-         }
-     })  
+      NotaModel.find({}).populate('id_estudiante').populate('id_curso')
+            .exec(function(err, notas){
+                if(err) {
+                    res.json({
+                        message: 'Error trying to List notas'
+                    });
+                }else {
+                res.json(notas);
+                }
+            })  
 }        
 
-/*
-{
-"id_estudiante": "5c50f771c004294d000246fb",
-"id_curso": "5c50da8f38607e3550f127ad",
-"nombre_evaluacion": "parcial1",
-"calificacion": 3
-}
-*/
  exports.create = function(req, res) {
      var nota = new NotaModel(req.body);
      nota.save(function(err) {
@@ -39,7 +32,7 @@ _ = require('lodash');
         }else {
             res.json(nota);
         }
-    })    
+    })
 }; 
 
 //show the current nota 
